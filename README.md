@@ -49,14 +49,20 @@ loan-risk-lakehouse/
 └── pyproject.toml                   # Pytest path & project configuration
 
 
+## **Quickstart**
+
+```bash
 # 1. Activate virtual environment
 .venv\Scripts\activate
 
-# 2. Execute end-to-end Prefect pipeline (Silver -> Gold -> Audit Gates)
+# 2. Generate synthetic multi-day Bronze partitions (includes CDC duplicates & dirty rows)
+python -m scripts.seed_sample_data --days 3 --rows 1000
+
+# 3. Execute end-to-end Prefect pipeline (Silver -> Gold -> Audit Gates)
 python -m src.pipeline
 
-# 3. Run automated unit & quality-gate tests
+# 4. Run automated unit & quality-gate tests
 pytest -v
 
-# 4. Launch Executive Risk & Lineage Portal
+# 5. Launch Executive Risk & Lineage Portal
 streamlit run app.py
