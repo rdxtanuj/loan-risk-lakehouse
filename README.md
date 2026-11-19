@@ -34,9 +34,6 @@ An end-to-end, local-first Medallion Lakehouse engineered for **credit risk anal
 
 
 
-## Repository Structure
-
-```text
 loan-risk-lakehouse/
 ├── src/
 │   ├── pipeline.py                  # Prefect v3 DAG orchestration & SLA gating
