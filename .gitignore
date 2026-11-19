@@ -1,0 +1,17 @@
+# Virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local lakehouse data & temporary Prefect state
+data/
+*.parquet
+.prefect/
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/

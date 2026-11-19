@@ -1,0 +1,8 @@
+duckdb
+polars
+dbt-core
+dbt-duckdb
+prefect
+pydantic
+faker
+pytest
