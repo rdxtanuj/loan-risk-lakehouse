@@ -32,6 +32,7 @@ An end-to-end, local-first Medallion Lakehouse engineered for **credit risk anal
    │  BI PORTAL  │  Interactive Streamlit risk & compliance portal (`app.py`)
    └─────────────┘
 
+## Repository Structure
 
    loan-risk-lakehouse/
 ├── src/
