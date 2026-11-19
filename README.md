@@ -49,9 +49,9 @@ loan-risk-lakehouse/
 └── pyproject.toml                   # Pytest path & project configuration
 
 
-## **Quickstart**
+Quickstart(Bash)
 
-```bash
+
 # 1. Activate virtual environment
 .venv\Scripts\activate
 
